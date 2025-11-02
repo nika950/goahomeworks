@@ -1,0 +1,15 @@
+print(54>76)#false
+print(45<12)#false
+print(785!=658)#true
+print(55<100)#true
+print(326>1000)#false
+print(498>392)#true
+print(200!=200)#false
+print(4356<=4893)#true
+print(45!=58)#true
+print(5467783<=368490)#false
+print(53>=53)#true
+print(4830<=4683)#false
+print(65498!=3783)#true
+print(3!=24)#true
+print(3658>37939)#true

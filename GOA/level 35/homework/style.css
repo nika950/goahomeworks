@@ -1,0 +1,19 @@
+.photo{
+    display: flex ;
+    flex-direction: column;
+    justify-content: center;
+    padding: 150px;
+}
+
+
+.bb{
+    background-color: blueviolet;
+    border-radius: 10px;
+    border:5px red;
+}
+.link{
+    display: flex;
+    text-align: center;
+    background-color: rgb(214, 116, 116);
+    color: rgb(18, 34, 210);
+}

@@ -1,0 +1,19 @@
+#name{
+    background-color: rgb(59, 170, 170);
+    background-position: center;
+}
+#surname{
+    background-color: aquamarine;
+    text-decoration: underline;color: rgb(189, 38, 38);
+}
+#email{
+    background-color: rgb(0, 150, 60);
+    text-align: justify;
+    text-decoration:underline;color: rgb(45, 39, 209);
+}
+body{
+    padding: 25%; 
+}
+#submit{
+    background-color: rgb(223, 24, 24);
+}

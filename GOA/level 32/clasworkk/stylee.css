@@ -1,0 +1,26 @@
+#div{
+    color: aqua;
+    text-decoration: overline;color: blueviolet;
+    padding: 20px red;
+    border: 5px sold rgb(196, 36, 36);
+    margin: 150px ;
+    font-style: italic;
+    text-align: center;
+
+}
+#b{
+    background-color: rgb(206, 206, 23);
+    color: rgb(239, 21, 21);
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 150px;
+    text-decoration: overline;
+
+}
+
+#p{
+    color: aqua;
+    background-color: brown;
+    text-align: center;
+    margin: 10px;
+}

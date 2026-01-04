@@ -1,0 +1,34 @@
+/* .d{
+    background-image: url(d.avif);
+    width: 400px;
+    height: 400px;
+    display: flex;
+    background-size: cover;
+    color: rgb(123, 74, 22);
+}
+
+.second{
+    background-image: url(china.avif);
+    height: 400px;
+    width: 400px;
+    display: flex;
+    background-size: cover;
+    
+} */
+
+
+
+.helow{
+    background-image: url(china.avif);
+    margin: 0%;
+    padding: 0%;
+    height:100vh;
+
+
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}

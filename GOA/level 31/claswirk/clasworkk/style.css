@@ -1,0 +1,31 @@
+/* a{
+    color: brown;
+    background-color: blueviolet;
+}
+
+
+button:hover{
+    color: aqua;
+}
+
+a:visited{
+    color: rgb(179, 192, 31);
+}
+
+
+a:link{
+    box-shadow: 4px 10px 20px;
+} */
+
+ul{
+    list-style-type: disc;
+    list-style-position: inside;
+    list-style-image: ulr(imagen);
+    color: rgb(18, 75, 75);
+}
+li{
+    list-style-type: disc;
+    list-style-position:inside ;
+    list-style-image: ulr(imgn);
+    
+}

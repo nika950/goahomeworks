@@ -1,0 +1,13 @@
+BODY{
+        height: 400px;
+    width: 40px;
+}
+
+#c{
+    background-image: url(poto.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 200px;
+    background-attachment:fixed ;
+
+}

@@ -1,0 +1,36 @@
+body{
+    background-image: url(background.jpg);
+}
+
+.ani{
+    background-color: rgb(255, 231, 112);
+    text-align: center;
+}
+.b{
+    position: absolute;
+    top: 15px;
+    right: 50px;
+}
+.n{
+    position: absolute;
+    top: 15px;
+    right: 150px;
+}
+.w{
+    display: flex;
+    border-radius: 10px;
+    height: 25px;
+}
+    
+.y{
+    justify-self: center;
+    border: 10px solid rgb(255, 211, 101);
+    background-color: rgb(188, 67, 67);
+    display: flex;
+    height: 400px;
+    width: 300px;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-image: url(background.jpg);
+    background-size: cover;
+}

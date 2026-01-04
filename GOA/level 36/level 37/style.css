@@ -1,0 +1,24 @@
+.conteiner{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+#c{
+    border: 3px solid red;
+    display: flex ;
+    position: relative;
+    background-color: rgb(86, 52, 52);
+
+}
+.item{
+    width: 200px;
+    height: 200px;
+}
+
+.second{
+    position: absolute;
+    left: 100px;
+    right: 50px;
+}

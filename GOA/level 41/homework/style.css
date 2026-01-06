@@ -2,6 +2,9 @@ body{
     background-image: url(background.jpg);
 }
 
+.t{
+    background-color: rgb(224, 200, 44);
+}
 .ani{
     background-color: rgb(255, 231, 112);
     text-align: center;
@@ -20,6 +23,7 @@ body{
     display: flex;
     border-radius: 10px;
     height: 25px;
+    background-color: rgb(224, 200, 68);
 }
     
 .y{

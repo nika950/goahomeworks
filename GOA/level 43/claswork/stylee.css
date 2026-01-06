@@ -1,0 +1,35 @@
+/* .body{
+    font-size: 5em;
+}
+
+.conteiner{
+    display: grid;
+    grid-template-columns: 200px 200px 300px;
+    grid-gap: 40px;
+    grid-template-areas: 
+    "space space",
+    "othrer item",
+    "sm 235",
+    "235 25";
+}
+
+.item{
+    background-color: aqua;
+    border: 2px solid red;
+}
+
+.item-1{
+    grid-column: span 2;
+
+
+} */
+
+
+.item-1{
+    grid-column: span 3;
+}
+
+.item-2{
+    grid-column: spam 1;
+    grid-column: row spam 3;
+}

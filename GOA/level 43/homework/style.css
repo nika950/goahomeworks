@@ -1,0 +1,49 @@
+.grid{
+    display: grid;
+    grid-gap: 15px;
+}
+.one{
+    border: 5px solid rgb(0, 0, 0);
+    background-color: aqua;
+}
+
+.one-1{
+    background-color: rgb(206, 19, 227);
+    grid-column: span 5;
+    grid-row:span 16;
+}
+.two-2{
+    background-color: rgb(15, 193, 228);
+    grid-column:span 3;
+    grid-row:span 8;
+}
+.three{
+    background-color: rgb(15, 193, 228);
+    grid-column:span 3;
+    grid-row: span 8;
+}
+.four{
+background-color: rgb(113, 0, 154);
+    grid-column:span 8;
+    grid-row:span 7;
+}
+.five{
+    background-color: blueviolet;
+    grid-column:span 2;
+    grid-row: span ;
+}
+.six{
+    background-color: blueviolet;
+    grid-column:span 2;
+    grid-row:span 3;
+}
+.seven{
+    background-color: blueviolet;
+    grid-column:span 2;
+    grid-row:span 3;
+}
+.eight{
+    background-color: blueviolet;
+    grid-column:span 2;
+    grid-row:span 3;
+}

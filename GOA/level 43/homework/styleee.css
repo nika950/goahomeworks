@@ -1,0 +1,58 @@
+.grid{
+    display: grid;
+    row-gap: 15px;
+}
+
+.item{
+    
+    border: 5px solid red;
+}
+
+.item-1{
+    grid-column:span 2;
+    grid-row:span 20 ;
+    text-align: center;
+    background-color: rgb(231, 217, 15);
+}
+.item-2{
+    grid-column:span 2;
+    grid-row:span 5;
+    text-align: center;
+    background-color: rgb(226, 229, 23);
+}
+.item-3{
+    grid-column:span 1;
+    grid-row:span 5 ;
+    text-align: center;
+    background-color: rgb(218, 231, 31);
+}
+.item-4{
+    grid-column:span 1 ;
+    grid-row:span 7 ;
+    text-align: center;
+    background-color: rgb(110, 7, 7);
+}
+.item-5{
+    grid-column:span 1;
+    grid-row:span 7 ;
+    text-align: center;
+    background-color: rgb(92, 7, 7);
+}
+.item-6{
+    grid-column:span 1 ;
+    grid-row:span 15 ;
+    text-align: center;
+    background-color: rgb(11, 94, 94);
+}
+.item-7{
+    grid-column:span 2 ;
+    grid-row:span 7 ;
+    text-align: center;
+    background-color: rgb(89, 1, 1);
+}
+.item-8{
+    grid-column:span 5 ;
+    grid-row: span ;
+    text-align: center;
+    background-color: rgb(10, 98, 98);
+}

@@ -1,0 +1,40 @@
+.box{
+    width: 300px;
+    height: 300px;
+    background-color: brown;
+}
+
+@media(max-width:1000px){
+.box{
+        background-color: rgb(210, 128, 21);
+        flex-direction: column;
+    }
+
+        button{
+            width: 100px;
+            height: 50px;
+        }
+
+@media(max-width:2000px){
+.box{
+        background-color: rgb(210, 128, 21);
+        flex-direction: row;
+    }
+
+        button{
+            width: 100px;
+            height: 50px;
+        }
+}
+@media(max-width:3000px){
+.box{
+        background-color: rgb(210, 128, 21);
+        flex-direction:row
+    }
+
+        button{
+            width: 100px;
+            height: 50px;
+        }
+    }
+}

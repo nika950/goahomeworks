@@ -1,0 +1,22 @@
+.d{
+    background-color: blue;
+    border: 5px solid red;
+    justify-self: center;
+    margin-top: 100px;
+    height: 400px;
+    width: 200px;
+
+}
+
+.w{
+    
+}
+
+.y{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 15px;
+    background-color: aqua;
+    border-radius: 15px;
+    
+}

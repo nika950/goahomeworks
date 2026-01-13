@@ -33,7 +33,7 @@
     border-top: 30px solid red;
     border-bottom: 30px solid red;
 }
-@keyframes{
+@keyframes loading{
     0%{
         width: 0%;
     }

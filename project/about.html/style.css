@@ -1,0 +1,31 @@
+card {
+    width: 300px; /* ბარათის სიგანე */
+    height: 500px; /* მთლიანი სიმაღლე */
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden; /* რომ შიგთავსი კუთხეებიდან არ გამოვიდეს */
+    display: flex;
+    flex-direction: column; /* ელემენტები ჩალაგდეს ერთმანეთის ქვეშ */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.card-image {
+    height: 200px; /* ფოტოს ნაწილის სიმაღლე */
+    width: 100%;
+}
+
+.card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* ფოტო კარგად ჩაჯდეს ზომებში და არ გაიწელოს */
+}
+
+.card-text {
+    height: 300px; /* წარწერის ნაწილის სიმაღლე */
+    padding: 15px;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* ტექსტი გაცენტრდეს სიმაღლეზე */
+    text-align: center;
+}

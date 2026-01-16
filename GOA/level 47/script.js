@@ -19,3 +19,4 @@ consol.log(person.firstname)
 consol.log(person.lastname)
 consol.log(person.hobby)
 consol.log(person.favoritemuvie)
+

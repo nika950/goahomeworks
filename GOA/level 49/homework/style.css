@@ -1,0 +1,95 @@
+.he{
+    background-image: url(buu.jpg);
+}
+
+
+
+.top{
+    display: flex;
+    border-radius: 15px;
+    height: 40px;
+    background-image: url(bb.jpg);
+    background-size: cover;
+    color: rgb(16, 92, 223);
+    
+}
+.n{
+    display: flex;
+    justify-content: end;
+}
+
+
+
+.a{
+    display: flex;
+    margin-left: auto;
+    
+}
+.l{
+    display: flex;
+    margin-left: auto;
+}
+
+.s{
+    display: flex;
+    margin-left: 30px;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    justify-content: center;
+    background-image: url(bb.jpg);
+    background-size: cover;
+    border-radius: 30px;
+    width: 300px;
+    height:400px;
+}
+
+.i{
+    display: flex;
+    justify-items: center;
+    font-size: 20px;
+    background-color: rgb(18, 113, 225);
+    border-radius: 5px;
+    text-align: center;
+}
+.o{
+    font-size: 14px;
+    
+}
+.p{
+    font-size: 12px;
+    color: blue;
+}
+.buttn{
+    background-color: rgb(18, 113, 225);
+    border-radius: 8px;
+}
+.b{
+    background-color: rgb(18, 113, 255);
+    border-radius: 8px;
+
+
+}
+.t{
+    text-align: center;
+    font-size: 14px;
+    color: blue;
+}
+
+
+.main{
+    display: flex;
+    margin-top: -400px;
+
+    margin-left: 450px;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+.photo{
+    background-image: url(photo.jpg);
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+    border-radius: 50%;
+}

@@ -1,0 +1,64 @@
+{
+    "nika": {
+        "auth": {
+            "salt": "7b2e0c20292a00bbc96464367921739d",
+            "hash": "a869455b0fa3a128497aff4451c83528d25e9ab259c46de4584c7034bcdd0226"
+        },
+        "balance": 0,
+        "transactions": []
+    },
+    "nikaa": {
+        "auth": {
+            "salt": "80e0e6a84be8768bb1d7b7721a94e551",
+            "hash": "2907d2aef797aa3f00c119e8aa9d6662c194d2907f6955eda6f18aa85fcbfb8c"
+        },
+        "balance": 1100.0,
+        "transactions": [
+            {
+                "timestamp": "2026-02-01T10:35:29.541423",
+                "type": "deposit",
+                "amount": 300.0
+            },
+            {
+                "timestamp": "2026-02-01T10:35:37.285380",
+                "type": "withdrawal",
+                "amount": 20.0
+            },
+            {
+                "timestamp": "2026-02-01T10:37:22.651072",
+                "type": "deposit",
+                "amount": 500.0
+            },
+            {
+                "timestamp": "2026-02-01T10:37:28.637176",
+                "type": "deposit",
+                "amount": 20.0
+            },
+            {
+                "timestamp": "2026-02-01T10:37:36.757128",
+                "type": "withdrawal",
+                "amount": 300.0
+            },
+            {
+                "timestamp": "2026-02-01T10:38:30.929174",
+                "type": "deposit",
+                "amount": 200.0
+            },
+            {
+                "timestamp": "2026-02-01T10:39:35.469264",
+                "type": "deposit",
+                "amount": 300.0
+            },
+            {
+                "timestamp": "2026-02-01T10:39:40.495746",
+                "type": "deposit",
+                "amount": 20.0
+            },
+            {
+                "timestamp": "2026-02-01T10:39:49.535430",
+                "type": "deposit",
+                "amount": 80.0
+            }
+        ]
+    }
+}

@@ -1,0 +1,82 @@
+body {
+    font-family: sans-serif; 
+    background-color: #f4f4f4; 
+    padding: 20px; }
+
+.divv{
+    background-color:white;
+    height: 30px;
+    width: auto;
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 7px;
+}
+
+.text{
+    font-size: 20px;
+}
+
+.llogo{
+    width: 40px;
+    height: 30px;
+    
+}
+.about{
+    text-align: end;
+    margin-top: -40px;
+    margin-right: 15px;
+}
+
+.container {
+    max-width: 500px; 
+    margin: auto; background: white; 
+    padding: 20px; 
+    border-radius: 8px; 
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+
+
+form { 
+    display: flex; 
+    flex-direction: column; 
+    gap: 10px; margin-bottom: 20px; }
+
+
+input, button { 
+    padding: 10px; 
+    border: 1px solid #ddd; 
+    border-radius: 4px; }
+
+
+button { 
+    background-color: #28a745;
+    color: white; 
+    cursor: pointer; 
+    border: none; }
+
+
+button:hover { background-color: #218838; }
+
+
+ul { list-style: none; 
+    padding: 0; }
+
+
+li { 
+    background: #eee; 
+    margin-bottom: 5px; 
+    padding: 10px; display: flex; 
+    justify-content: space-between; 
+    align-items: center; border-radius: 4px; }
+
+
+.remove-btn { 
+    background: #dc3545; 
+    padding: 5px 10px; 
+    font-size: 12px; }
+
+
+.total-section { border-top: 2px solid #eee; 
+    margin-top: 20px; 
+    padding-top: 10px; 
+    font-size: 1.2rem; }
+

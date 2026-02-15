@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="divv">
+        
+
+        <div class="text">
+            <p>უსწრაპესი სივრცე დიდი ფასდაკლებებით</p>
+        </div>
+        <div class="about">
+            <a href="about.html">about </a>
+        </div>
+    </div>
+
+    <img src="logo.png" alt="llogo" class="llogo">
+
+
+    <div class="container">
+
+        <h1>სავაჭრო კალათა </h1>
+
+        <form id="cart-form">
+            <input type="text" id="name" placeholder="პროდუქტის სახელი" required>
+            <input type="number" id="price" placeholder="ფასი" step="0.01" required>
+            <input type="number" id="quantity" placeholder="რაოდენობა" required>
+            <button type="submit">დამატება</button>
+        </form>
+
+        <div id="cart-display">
+            <ul id="cart-items"></ul>
+        </div>
+
+        <div class="total-section">
+            <p>ჯამი: $<span id="total-price">0.00</span></p>
+            <p id="discount-msg" style="color: green; font-weight: bold;"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

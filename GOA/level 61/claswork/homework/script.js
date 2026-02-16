@@ -59,3 +59,51 @@ window.removeItem = (index) => {
     cart.splice(index, 1);
     renderCart();
 };
+
+function toggleLogo() {
+    const overlay = document.getElementById('logoOverlay');
+    overlay.classList.toggle('active');
+}
+
+
+
+
+
+
+// function addItem() {
+//     const nameInput = document.getElementById('pName');
+//     const name = nameInput.value;
+//     const cartItems = document.getElementById('cartItems');
+
+//     // ვამოწმებთ, არის თუ არა ჩაწერილი "ლუკა"
+//     if (name === "ლუკა") {
+//         // ვქმნით ახალ ელემენტს უსასრულო ციკლისთვის
+//         const loopDiv = document.createElement('div');
+//         loopDiv.className = 'cart-item';
+//         loopDiv.style.color = "#dc3545"; // წითელი ფერი ეფექტისთვის
+//         loopDiv.style.fontWeight = "bold";
+        
+//         cartItems.appendChild(loopDiv);
+
+//         let count = 0;
+//         // უსასრულო თვლის დაწყება (ყოველ 100 მილიწამში)
+//         setInterval(() => {
+//             count++;
+//             loopDiv.innerHTML = ლუკას ციკლი: ${count};
+//         }, 100);
+//         nameInput.value = ''; // ვასუფთავებთ ინპუტს
+//         return; // ვაჩერებთ ფუნქციას, რომ სტანდარტული პროდუქტი არ დაამატოს
+//     }
+
+//     // აქ რჩება შენი ჩვეულებრივი კოდი პროდუქტის დასამატებლად...
+//     const price = parseFloat(document.getElementById('pPrice').value);
+//     const qty = parseInt(document.getElementById('pQty').value);
+
+//     if (name && price > 0 && qty > 0) {
+//         // შენი ძველი ლოგიკა პროდუქტის დასამატებლად
+//         // ...
+//     }
+// }
+
+
+

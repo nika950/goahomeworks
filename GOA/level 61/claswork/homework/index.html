@@ -16,9 +16,19 @@
             <a href="about.html">about </a>
         </div>
     </div>
+    <div>
 
-    <img src="logo.png" alt="llogo" class="llogo">
 
+    <img src="logo.png" id="smallLogo" onclick="toggleLogo()" style="width: 50px; cursor: pointer;">
+
+    <div id="logoOverlay" class="overlay" onclick="toggleLogo()">
+    <img src="logo.png" class="large-logo">
+
+
+</div>
+
+    </div>
+    
 
     <div class="container">
 
@@ -41,6 +51,7 @@
         </div>
     </div>
 
+    
     <script src="script.js"></script>
 </body>
 </html>

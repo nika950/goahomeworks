@@ -69,6 +69,6 @@ let WelcomeHim = false;
 
 const greeTmer = setTimeout(greet,5000,"luka")
 
-function  greet(username){
-    if (welcomeHim)
-}
+// function  greet(username){
+//     if (welcomeHim)
+// }

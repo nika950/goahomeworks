@@ -62,7 +62,7 @@ class Bank{
     }
     get password(){
          let displayPass = this.password.length * "#"
-        return this.password;
+        return this._password;
     }
 
     get balance(){
